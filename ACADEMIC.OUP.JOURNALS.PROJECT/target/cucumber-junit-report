@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="79.932228">
+<testcase classname="AcademicOupJournals Registration" name="Successful Registration with valid credentials" time="35.712178">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigates to Registration Page....................................passed
+Then User enters email id password and confirm password "rmeghana20@gmail.com"and "Classmate8" "Classmate8".passed
+And Message displayed Registration Successfull..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="AcademicOupJournals Registration" name="Successful Registration with valid credentials 2" time="20.698462">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigates to Registration Page....................................passed
+Then User enters email id password and confirm password "honey123@gmail.com"and "Dairymilk8" "Dairymilk8".passed
+And Message displayed Registration Successfull..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="AcademicOupJournals Registration" name="Successful Signin with valid credentials" time="8.121111">
+<system-out><![CDATA[Given I launch Chrome in signin.............................................passed
+When I open Academic oup page...............................................passed
+Then I verify that user enter...............................................passed
+And I clicks the signin button..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="AcademicOupJournals Registration" name="Journals A to Z" time="7.65474">
+<system-out><![CDATA[Given User has the home page with signin in journals AtoZ...................passed
+When click on Journals A to Z item and select Alphabet M....................passed
+Then verify the perticular Alphabet data is displayed.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="AcademicOupJournals Registration" name="Click resource menu" time="7.745737">
+<system-out><![CDATA[Given I launch Chrome.......................................................passed
+When Resources Page is opened...............................................passed
+Then clicks the Resources...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,346 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Successful Registration with valid credentials",
+        "description": "",
+        "id": "academicoupjournals-registration;successful-registration-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16078721200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "registrationstep.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5790882700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Navigates to Registration Page",
+            "match": {
+              "location": "registrationstep.user_Navigates_to_Registration_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13437700400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters email id password and confirm password \"rmeghana20@gmail.com\"and \"Classmate8\" \"Classmate8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rmeghana20@gmail.com",
+                  "offset": 52
+                },
+                {
+                  "val": "Classmate8",
+                  "offset": 78
+                },
+                {
+                  "val": "Classmate8",
+                  "offset": 91
+                }
+              ],
+              "location": "registrationstep.user_enters_email_id_password_and_confirm_password_and(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 404873900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Message displayed Registration Successfull",
+            "match": {
+              "location": "registrationstep.message_displayed_Registration_Successfull()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_registration"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Successful Registration with valid credentials",
+        "description": "",
+        "id": "academicoupjournals-registration;successful-registration-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1349008600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "registrationstep.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5599900600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Navigates to Registration Page",
+            "match": {
+              "location": "registrationstep.user_Navigates_to_Registration_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13396443200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters email id password and confirm password \"honey123@gmail.com\"and \"Dairymilk8\" \"Dairymilk8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "honey123@gmail.com",
+                  "offset": 52
+                },
+                {
+                  "val": "Dairymilk8",
+                  "offset": 76
+                },
+                {
+                  "val": "Dairymilk8",
+                  "offset": 89
+                }
+              ],
+              "location": "registrationstep.user_enters_email_id_password_and_confirm_password_and(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 353109900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Message displayed Registration Successfull",
+            "match": {
+              "location": "registrationstep.message_displayed_Registration_Successfull()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_registration"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Successful Signin with valid credentials",
+        "description": "",
+        "id": "academicoupjournals-registration;successful-signin-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1219100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I launch Chrome in signin",
+            "match": {
+              "location": "signinstep.i_launch_Chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1040020000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I open Academic oup page",
+            "match": {
+              "location": "signinstep.i_open_academic_oup_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6274101800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify that user enter",
+            "match": {
+              "location": "signinstep.i_verify_that_user_enter_and()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 805770200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I clicks the signin button",
+            "match": {
+              "location": "signinstep.i_clicks_the_signin_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tc_02_signin"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Journals A to Z",
+        "description": "",
+        "id": "academicoupjournals-registration;journals-a-to-z",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2568956700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User has the home page with signin in journals AtoZ",
+            "match": {
+              "location": "journalsstep.user_has_the_home_page_with_signin_in_journals_AtoZ()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4222409800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on Journals A to Z item and select Alphabet M",
+            "match": {
+              "location": "journalsstep.click_on_Journals_A_to_Z_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 863374000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify the perticular Alphabet data is displayed",
+            "match": {
+              "location": "journalsstep.verify_the_perticular_Alphabet_data_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@tc_03_journals"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Click resource menu",
+        "description": "",
+        "id": "academicoupjournals-registration;click-resource-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 885500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I launch Chrome",
+            "match": {
+              "location": "resourcesstep.i_launch_Chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6368163200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Resources Page is opened",
+            "match": {
+              "location": "resourcesstep.resources_Page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1376688600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "clicks the Resources",
+            "match": {
+              "location": "resourcesstep.clicks_the_Resources()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@tc_04_resources"
+          }
+        ]
+      }
+    ],
+    "name": "AcademicOupJournals Registration",
+    "description": "This feature verifies the functionality on AcademicOupJpurnals Registration",
+    "id": "academicoupjournals-registration",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
