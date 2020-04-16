@@ -25,7 +25,7 @@ public class excel_datadriven
 	{
 		//File f  = new File("exceldata.xlsx");
 		//System.out.println(f.canRead()+""+f.exists());
-	FileInputStream fil = new FileInputStream(new File("C:\\Users\\megha\\OneDrive\\Desktop\\exceldata.xlsx"));
+	FileInputStream fil = new FileInputStream(new File("C:\Users\megha\Academicoupproject\ACADEMIC.OUP.JOURNALS.PROJECT\src\test\resources\TestData\exceldata.xlsx"));
     XSSFWorkbook workbook = new XSSFWorkbook(fil);
     XSSFSheet sheet= workbook.getSheet("Sheet1");
     int count = sheet.getLastRowNum();
@@ -40,7 +40,7 @@ public class excel_datadriven
     }
 	public String excel_password(int b) throws  IOException
 	{
-	FileInputStream fil = new FileInputStream(new File("C:\\Users\\megha\\OneDrive\\Desktop\\exceldata.xlsx"));
+	FileInputStream fil = new FileInputStream(new File("C:\Users\megha\Academicoupproject\ACADEMIC.OUP.JOURNALS.PROJECT\src\test\resources\TestData\exceldata.xlsx"));
     XSSFWorkbook workbook = new XSSFWorkbook(fil);
 	XSSFSheet sheet= workbook.getSheet("Sheet1");
     int count = sheet.getLastRowNum();
